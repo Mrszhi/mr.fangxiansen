@@ -1,0 +1,422 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 2.14rem;
+        height: 0.73rem;
+        margin: 0.18rem 0.16rem;
+    }
+    .icon-nav{
+        font-size: 0.33rem;
+        margin: 0.18rem 0.16rem;
+        color: #999999;
+    }
+    p{
+        font-size: 0.22rem;
+        text-align: center;
+        color: #999999;
+    }
+}
+.swiper1{
+    .swiper-slide{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.navbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+        font-size:14px;
+        text-align: center;
+        color: #6D6D6D;
+        img{
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+    }
+    li:nth-child(1){
+        margin-top: 0.36rem;
+   
+    }
+    li:nth-child(2){
+        margin-top: 0.36rem;
+        margin-left: 0.7rem;
+    }
+    li:nth-child(3){
+          margin-top: 0.36rem;
+        margin-left: 0.7rem;
+    }
+    li:nth-child(4){
+          margin-top: 0.36rem;
+        margin-left: 0.7rem;
+    }
+    li:nth-child(5){
+        margin-top: 0.52rem;
+    }
+    li:nth-child(6){
+        margin-top: 0.52rem;
+        margin-left: 0.7rem;
+    }
+    li:nth-child(7){
+          margin-top: 0.52rem;
+        margin-left: 0.7rem;
+    }
+    li:nth-child(8){
+         margin-top: 0.52rem;
+        margin-left: 0.7rem;
+    }
+}
+.hrbox,.hrbox_a{
+    width: 100%;
+    height: 0.18rem;
+    background: #F4F4F4;
+    margin-top: 0.4rem;
+}
+.sizebox{
+    width: 90%;
+    height: 0.42rem;
+    display: flex;
+    margin-left: 0.16rem;
+    margin-top: 0.32rem;
+    border-left: 0.05rem solid #37C993;
+    line-height:0.42rem ;
+    strong{
+        font-size: 18px;
+        margin-left: 0.11rem;
+        small{
+            font-size: 12px;
+            color: #999999;
+        }
+    }
+}
+.swiperbox{
+    margin: 0.32rem 0.16rem;
+}
+.swiper2{
+    width: 100%;
+    .swiper-slide{
+        
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .swiper-pagination-bullet-active{
+        width: 0.2rem;
+        background: #38C993;
+    }
+    
+}
+.sizebox_a{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    div{
+        display: flex;
+        img{
+            width: 0.36rem;
+            height: 0.36rem;
+        }
+        p{
+            font-size: 14px;
+            margin-left: 0.12rem;
+        }
+    }
+}
+.sizebox_b{
+    width: 90%;
+    height: 0.42rem;
+    display: flex;
+    margin-left: 0.16rem;
+    margin-top: 0.32rem;
+    border-left: 0.05rem solid #37C993;
+    line-height:0.42rem ;
+    p{
+        font-size: 18px;
+        margin-left: 0.11rem;
+        small{
+            font-size: 12px;
+            color: #999999;
+        }
+    }
+}
+.inputbox{
+    width: 100%;
+    text-align: center;
+    input{
+        width: 5.86rem;
+        height: 0.7rem;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #CACACA;
+        margin: 0.25rem;
+    }
+    button{
+        width:5.86rem ;
+        height: 0.7rem;
+        background: #FEB605;
+        text-align: center;
+        line-height: 0.7rem;
+        color: white;
+    }
+}
+.hrbox_b,.hrbox_c,.hrbox_d{
+    margin: 0.36rem 0;
+    width: 100%;
+    height: 0.18rem;
+    background: #F4F4F4;
+   
+}
+.sizebox_c,.sizebox_d,.sizebox_e{
+    width: 90%;
+    margin-left: 0.16rem;
+    font-size: 18px;
+    border-left: 0.05rem solid #37C993;
+    p{
+        margin-left: 0.11rem;
+    }
+}
+.imagebox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    div{
+       display:flex;
+       flex-direction: column;
+       
+        img{
+            width: 1.4rem;
+            height: 1.4rem;
+            margin-top: 0.4rem;
+        }
+        span{
+            font-size: 18px;
+            color: #000000;
+            text-align: center;
+            margin-top: 0.25rem;
+        }
+        p{
+            width: 1.2rem;
+            height: 0.32rem;
+            text-align: center;
+            font-size: 12px;
+            color: white;
+            background: #39C893;
+            margin: 0 auto;
+        }
+    }
+}
+.numberbox,.numberbox_a,.numberbox_b{
+    width: 100%;
+    display: flex;
+//  margin: 0 16px;
+    box-sizing: border-box;
+    padding: 0 16px;
+//  margin: 0  0.16rem;
+    margin-top: 0.3rem;
+    
+    div{
+        width: 100%;
+        height: 0.7rem;
+//      text-align: center;
+        line-height: 0.7rem;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gainsboro;
+        color:#39C893 ;
+    }
+}
+.imagebox_a{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.36rem;
+    img{
+        width: 7.16rem;
+        height: 5.06rem;
+    }
+    div{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        img{
+            width: 3.57rem;
+            height: 2.52rem;
+        }
+        img:nth-child(2),img:nth-child(4){
+            margin: 0.08rem 0.08rem;
+        }
+    }
+}
+.imagebox_b{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.4rem;
+    img{
+        width:100%;
+        width: 5.34rem;
+    }
+    div{
+        width: 80%;
+        display: flex;
+        margin-left: 0.16rem;
+        span{
+            font-size: 14px;
+        }
+        p{
+            margin-left: 0.11rem;
+            background: #39C893;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}
+//.lrbox{
+//  width: 100%;
+//  box-sizing: border-box;
+//  padding: 0.4rem 0.16rem;
+////  margin: 0.4rem 0.16rem;
+//  .lrbox_hr{
+//      width: 100%;
+//      height: 0.05rem;
+//      background: gainsboro;
+//      margin-top: 0.31rem;
+//      margin-bottom: 0.32rem;
+//  }
+//  div{
+//      width: 100%;
+//      display: flex;
+//      align-items: center;
+//      margin: 0;
+//      padding: 0;
+//      img{
+//          width: 1.9rem;
+//          height: 1.45rem;
+//      }
+//     .lrbox_a{
+//         width: 71%;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         p{
+//             width: 100%;
+//             font-size: 18px;
+//             margin-left: 0.22rem;
+//         }
+//         ul{
+//             display: flex;
+//             font-size: 14px;
+//             color: #999999;
+//             margin: 0.22rem;
+//             li:nth-child(2){
+//                 margin-left: 0.75rem;
+//             }
+//         }
+//     }
+//  }
+//}
+.Two_over{
+    width: 100%;
+    margin-top: 0.4rem;
+    box-sizing: border-box;
+    padding: 0 0.16rem;
+    .Two_over_zhong{
+        width: 100%;
+        display: flex;
+//      .Two_over_left{
+            img{
+                width: 1.9rem;
+                height: 1.45rem;
+            }
+//      }
+        .Two_over_rigth{
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.22rem;
+            p{
+                font-size: 0.36rem;
+            }
+            ul{
+//              margin-top: 0.22rem;
+                display: flex;
+                font-size: 0.28rem;
+                span{
+                    margin-left: 0.12rem;
+                    color: #999999;
+                }
+                li:nth-of-type(2){
+                    margin-left: 0.75rem;
+                }
+                
+            }
+        }
+    }
+    .lrbox_hr{
+        width: 100%;
+        height: 0.05rem;
+        background: gainsboro;
+        margin-top: 0.31rem;
+        margin-bottom: 0.32rem;
+    }
+}
+.miaoshu{
+    width: 97%;
+//  text-align: center;
+    color: #333333;
+    text-indent: 0.28rem;
+    margin: 0 0.16rem;
+}
+.phonebox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 0.32rem;
+        height: 0.32rem;
+    }
+    font-size:14px;
+    color: #333333;
+}
+.footer{
+    width: 100%;
+    font-size: 0;
+    img{
+        width: 100%;
+        height: 1.09rem;
+    }
+    .footer_a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        background: #282828;
+        img{
+            width: 1.74rem;
+            height: 0.77rem;
+            border: none;
+        }
+    }
+}
